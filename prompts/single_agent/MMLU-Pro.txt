@@ -1,0 +1,53 @@
+# MMLU-Pro Single-Agent Prompt
+
+<System Task>
+Answer the following MMLU-Pro multiple-choice question independently.
+
+Choose exactly one answer from the provided options A through J.
+
+<Reasoning>
+Reason briefly using the domain knowledge, calculation, or logical analysis appropriate to the question.
+
+Match your conclusion to the best available answer choice, then provide your initial answer.
+
+<Self-Reflection>
+Briefly check the key reasoning and whether the selected option is correct.
+
+If you find a concrete reasoning, calculation, or option-mapping error, revise the answer.
+Otherwise, keep the initial answer unchanged.
+
+<Output Format>
+You must complete all four lines below:
+
+Reasoning: <concise reasoning>
+Initial answer: <A-J>
+Reflection: <one brief verification sentence>
+Final answer: <A-J>
+
+<Important>
+- Do not stop after the Reflection line.
+- Your response is incomplete until you output the Final answer line.
+- You MUST output "Final answer: <A-J>" even if it is identical to the Initial answer.
+- The Final answer must be the last line of your response.
+
+<Answer Rules>
+- Choose exactly one of the provided answer choices.
+- Initial answer and Final answer must each contain exactly one uppercase letter from A to J.
+- If your reasoning produces a numerical, textual, or symbolic result, map it to the best matching provided option.
+- Do not put the option text, calculated value, punctuation, or explanation on the answer lines.
+- If no option appears to match perfectly, choose the single best available option.
+
+<Question>
+{{question}}
+
+<Choices>
+A. {{choice_A}}
+B. {{choice_B}}
+C. {{choice_C}}
+D. {{choice_D}}
+E. {{choice_E}}
+F. {{choice_F}}
+G. {{choice_G}}
+H. {{choice_H}}
+I. {{choice_I}}
+J. {{choice_J}}

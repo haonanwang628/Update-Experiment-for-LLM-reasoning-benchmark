@@ -1,0 +1,47 @@
+# CommonsenseQA Single-Agent Prompt
+
+<System Task>
+Answer the following CommonsenseQA multiple-choice question independently.
+
+Choose the single best answer from A, B, C, D, or E.
+
+<Reasoning>
+Reason briefly using common-sense knowledge and compare the answer choices.
+
+After reasoning, provide your initial answer.
+
+<Self-Reflection>
+Briefly reconsider the question and all choices.
+
+If you identify a concrete reasoning error or another option clearly fits better, revise your answer.
+Otherwise, keep the initial answer unchanged.
+
+<Output Format>
+Reasoning: <concise reasoning>
+
+Initial answer: <A-E>
+
+Reflection: <brief verification>
+
+Final answer: <A-E>
+
+<Answer Rules>
+- Initial answer and Final answer must each be exactly one uppercase letter from A to E.
+- Do not include option text or explanations on the answer lines.
+
+<Confidence>
+After the Final answer line, add exactly one more line:
+
+Confidence: <integer 0-100>
+
+Confidence is your own estimate of the probability that your Final answer is correct.
+
+<Question>
+{{question}}
+
+<Choices>
+A. {{choice_A}}
+B. {{choice_B}}
+C. {{choice_C}}
+D. {{choice_D}}
+E. {{choice_E}}

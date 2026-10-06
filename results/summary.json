@@ -1,0 +1,386 @@
+[
+ {
+  "source": "single_agent_v2",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 674,
+  "accuracy": 0.510993,
+  "ci95_wilson": [
+   0.484023,
+   0.537899
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 851,
+  "accuracy": 0.69697,
+  "ci95_wilson": [
+   0.670607,
+   0.722097
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 3760,
+  "accuracy": 0.3125,
+  "ci95_wilson": [
+   0.304279,
+   0.320841
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 522,
+  "accuracy": 0.28262,
+  "ci95_wilson": [
+   0.262553,
+   0.30359
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1064,
+  "accuracy": 0.806672,
+  "ci95_wilson": [
+   0.784481,
+   0.827081
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 843,
+  "accuracy": 0.690418,
+  "ci95_wilson": [
+   0.663922,
+   0.715719
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 5400,
+  "accuracy": 0.448803,
+  "ci95_wilson": [
+   0.439934,
+   0.457705
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 598,
+  "accuracy": 0.323768,
+  "ci95_wilson": [
+   0.302813,
+   0.345455
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1145,
+  "accuracy": 0.868082,
+  "ci95_wilson": [
+   0.848745,
+   0.88528
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 1002,
+  "accuracy": 0.820639,
+  "ci95_wilson": [
+   0.798124,
+   0.841143
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 6111,
+  "accuracy": 0.507896,
+  "ci95_wilson": [
+   0.498961,
+   0.516825
+  ]
+ },
+ {
+  "source": "single_agent_v2",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 655,
+  "accuracy": 0.354629,
+  "ci95_wilson": [
+   0.333133,
+   0.376728
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 661,
+  "accuracy": 0.501137,
+  "ci95_wilson": [
+   0.474189,
+   0.528078
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1063,
+  "accuracy": 0.805914,
+  "ci95_wilson": [
+   0.783694,
+   0.826357
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1147,
+  "accuracy": 0.869598,
+  "ci95_wilson": [
+   0.850346,
+   0.886703
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve1",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1254,
+  "accuracy": 0.95072,
+  "ci95_wilson": [
+   0.937674,
+   0.961149
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve2",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "GSM8K",
+  "questions": 1319,
+  "correct": 1260,
+  "accuracy": 0.955269,
+  "ci95_wilson": [
+   0.942729,
+   0.965165
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 858,
+  "accuracy": 0.702703,
+  "ci95_wilson": [
+   0.676462,
+   0.727672
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 845,
+  "accuracy": 0.692056,
+  "ci95_wilson": [
+   0.665593,
+   0.717314
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 982,
+  "accuracy": 0.804259,
+  "ci95_wilson": [
+   0.781063,
+   0.825546
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve1",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 1003,
+  "accuracy": 0.821458,
+  "ci95_wilson": [
+   0.798978,
+   0.841921
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve2",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "CommonsenseQA",
+  "questions": 1221,
+  "correct": 988,
+  "accuracy": 0.809173,
+  "ci95_wilson": [
+   0.786175,
+   0.830231
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 501,
+  "accuracy": 0.271251,
+  "ci95_wilson": [
+   0.251464,
+   0.291987
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 585,
+  "accuracy": 0.31673,
+  "ci95_wilson": [
+   0.295913,
+   0.338308
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 643,
+  "accuracy": 0.348132,
+  "ci95_wilson": [
+   0.326742,
+   0.370153
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve1",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 913,
+  "accuracy": 0.494315,
+  "ci95_wilson": [
+   0.471549,
+   0.517105
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve2",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "CS1QA",
+  "questions": 1847,
+  "correct": 927,
+  "accuracy": 0.501895,
+  "ci95_wilson": [
+   0.479112,
+   0.52467
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 3736,
+  "accuracy": 0.310505,
+  "ci95_wilson": [
+   0.302299,
+   0.318832
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Phi-4-mini-instruct",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 5348,
+  "accuracy": 0.444481,
+  "ci95_wilson": [
+   0.435622,
+   0.453377
+  ]
+ },
+ {
+  "source": "mmad_v3.1_s0",
+  "model": "Qwen2.5-7B-Instruct",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 6051,
+  "accuracy": 0.502909,
+  "ci95_wilson": [
+   0.493975,
+   0.511841
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve1",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 7749,
+  "accuracy": 0.644033,
+  "ci95_wilson": [
+   0.635432,
+   0.652541
+  ]
+ },
+ {
+  "source": "gemma_tutor_t0_solve2",
+  "model": "Gemma-3-27B-IT",
+  "benchmark": "MMLU-Pro",
+  "questions": 12032,
+  "correct": 7739,
+  "accuracy": 0.643201,
+  "ci95_wilson": [
+   0.634597,
+   0.651714
+  ]
+ }
+]

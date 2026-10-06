@@ -1,0 +1,43 @@
+
+# CS1QA Reasoning Prompt
+
+<System Task>
+Answer the following programming question independently using the provided code context.
+
+<Reasoning>
+Analyze the question and the relevant behavior of the code.
+
+Reason briefly about the program logic, execution behavior, data flow, or programming concept needed to answer the question.
+
+After completing your reasoning, provide your initial answer.
+
+<Self-Reflection>
+Briefly verify the key programming or logical reasoning used in your initial answer.
+
+Check whether you made a concrete reasoning error, overlooked an important condition in the code, or introduced an unsupported assumption.
+
+If you identify a concrete problem, revise the answer.
+Otherwise, keep the initial answer unchanged.
+
+<Output Format>
+Reasoning: <concise reasoning>
+
+Initial answer: <concise and self-contained answer>
+
+Reflection: <brief verification>
+
+Final answer: <concise and self-contained answer after reflection>
+
+<Answer Rules>
+- Answer the question directly using the supplied code context.
+- Base your answer only on information supported by the question and code.
+- Do not introduce assumptions that are not supported by the code.
+- The Initial answer and Final answer must each be understandable without reading the reasoning.
+- Preserve important conditions or qualifications when they are necessary for correctness.
+- Do not revise the answer merely for the sake of changing it.
+
+<Question>
+{{question}}
+
+<Code Context>
+{{code}}

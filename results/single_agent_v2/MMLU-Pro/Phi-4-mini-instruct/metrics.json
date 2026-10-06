@@ -1,0 +1,26 @@
+{
+  "dataset": "mmlu_pro",
+  "split": "test",
+  "prompt_version": "V3_plain_text",
+  "total_samples": 12032,
+  "scored_samples": 12032,
+  "correct": 5400,
+  "accuracy": 0.4488031914893617,
+  "format_compliant": 11470,
+  "format_compliant_rate": 0.9532912234042553,
+  "unextractable_no_letter_found": 82,
+  "extraction_method_counts": {
+    "final_answer_line_direct": 11392,
+    "final_answer_line_scan": 508,
+    "no_letter_found": 82,
+    "raw_text_last_letter": 50
+  },
+  "model_config": {
+    "model": "phi-4-mini-instruct",
+    "base_url": "http://localhost:8001/v1",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 2048
+  },
+  "note": "Accuracy counts a sample correct if the Final answer line's option letter (robustly extracted; text scanning only used when the exact 'Final answer:' line is missing or non-single-letter) matches the gold MMLU-Pro answer, restricted to that question's actual option letters (A..J, variable count). format_compliant / format_compliant_rate report how many responses contained all four required field labels (Reasoning/Initial answer/Reflection/Final answer) in order, kept separate from correctness."
+}

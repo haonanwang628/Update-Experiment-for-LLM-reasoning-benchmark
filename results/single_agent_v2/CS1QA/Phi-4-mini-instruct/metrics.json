@@ -1,0 +1,88 @@
+{
+  "dataset": "cs1qa",
+  "split": "test",
+  "selected_samples": 1847,
+  "saved_samples": 1847,
+  "statuses": {
+    "ok": 1846,
+    "parse_error": 1
+  },
+  "model_token_usage": {
+    "prompt_tokens": 1437568,
+    "completion_tokens": 419360,
+    "total_tokens": 1856928,
+    "responses": 1849,
+    "missing_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "all_saved_responses_reported_usage": true
+  },
+  "judge_token_usage": {
+    "prompt_tokens": 1686840,
+    "completion_tokens": 6786,
+    "total_tokens": 1693626,
+    "responses": 1846,
+    "missing_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "all_saved_responses_reported_usage": true
+  },
+  "metric": "judge_accuracy",
+  "correct": 598,
+  "scored_samples": 1846,
+  "accuracy": 0.3237682728749323,
+  "accuracy_on_scored": 0.323943661971831,
+  "complete": false,
+  "by_question_type": {
+    "algorithm": {
+      "samples": 239,
+      "scored": 239,
+      "accuracy_on_scored": 0.20920502092050208
+    },
+    "code_explain": {
+      "samples": 188,
+      "scored": 187,
+      "accuracy_on_scored": 0.36363636363636365
+    },
+    "code_understanding": {
+      "samples": 41,
+      "scored": 41,
+      "accuracy_on_scored": 0.43902439024390244
+    },
+    "error": {
+      "samples": 193,
+      "scored": 193,
+      "accuracy_on_scored": 0.13989637305699482
+    },
+    "logical": {
+      "samples": 211,
+      "scored": 211,
+      "accuracy_on_scored": 0.14218009478672985
+    },
+    "reasoning": {
+      "samples": 160,
+      "scored": 160,
+      "accuracy_on_scored": 0.51875
+    },
+    "task": {
+      "samples": 264,
+      "scored": 264,
+      "accuracy_on_scored": 0.22727272727272727
+    },
+    "usage": {
+      "samples": 162,
+      "scored": 162,
+      "accuracy_on_scored": 0.32098765432098764
+    },
+    "variable": {
+      "samples": 389,
+      "scored": 389,
+      "accuracy_on_scored": 0.5398457583547558
+    }
+  },
+  "note": "Accuracy uses all selected samples as denominator; errors/missing/unparseable outputs count as incorrect."
+}

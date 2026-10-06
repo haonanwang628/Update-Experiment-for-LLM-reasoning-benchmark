@@ -1,0 +1,87 @@
+{
+  "dataset": "cs1qa",
+  "split": "test",
+  "selected_samples": 1847,
+  "saved_samples": 1847,
+  "statuses": {
+    "ok": 1847
+  },
+  "model_token_usage": {
+    "prompt_tokens": 1885384,
+    "completion_tokens": 481515,
+    "total_tokens": 2366899,
+    "responses": 1847,
+    "missing_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "all_saved_responses_reported_usage": true
+  },
+  "judge_token_usage": {
+    "prompt_tokens": 1694981,
+    "completion_tokens": 6866,
+    "total_tokens": 1701847,
+    "responses": 1847,
+    "missing_usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "all_saved_responses_reported_usage": true
+  },
+  "metric": "judge_accuracy",
+  "correct": 522,
+  "scored_samples": 1847,
+  "accuracy": 0.2826204656199242,
+  "accuracy_on_scored": 0.2826204656199242,
+  "complete": true,
+  "by_question_type": {
+    "algorithm": {
+      "samples": 239,
+      "scored": 239,
+      "accuracy_on_scored": 0.13807531380753138
+    },
+    "code_explain": {
+      "samples": 188,
+      "scored": 188,
+      "accuracy_on_scored": 0.32978723404255317
+    },
+    "code_understanding": {
+      "samples": 41,
+      "scored": 41,
+      "accuracy_on_scored": 0.3902439024390244
+    },
+    "error": {
+      "samples": 193,
+      "scored": 193,
+      "accuracy_on_scored": 0.14507772020725387
+    },
+    "logical": {
+      "samples": 211,
+      "scored": 211,
+      "accuracy_on_scored": 0.06635071090047394
+    },
+    "reasoning": {
+      "samples": 160,
+      "scored": 160,
+      "accuracy_on_scored": 0.475
+    },
+    "task": {
+      "samples": 264,
+      "scored": 264,
+      "accuracy_on_scored": 0.19696969696969696
+    },
+    "usage": {
+      "samples": 162,
+      "scored": 162,
+      "accuracy_on_scored": 0.24074074074074073
+    },
+    "variable": {
+      "samples": 389,
+      "scored": 389,
+      "accuracy_on_scored": 0.519280205655527
+    }
+  },
+  "note": "Accuracy uses all selected samples as denominator; errors/missing/unparseable outputs count as incorrect."
+}

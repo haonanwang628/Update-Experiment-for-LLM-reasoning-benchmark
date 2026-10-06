@@ -1,0 +1,15 @@
+{
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "base_url": "http://<node>:8001/v1",
+  "judge_model": "Qwen/Qwen3.5-9B",
+  "judge_base_url": "http://<node>:8002/v1",
+  "data_sha256": "6173b16f1e73b2f03eadbd39fbc6ed6ffa4898e6a01e6c89c5fb75e9d278c89e",
+  "reasoning_prompt_sha256": "1c62ec1d2c8ce37218019e9eba3cefe6bf120cd4c81217ee7a8f0a84e89010c1",
+  "judge_prompt_sha256": "dbfe7afc8838da8842e8d227a6c5d5c84d7818b03e053a8c1b0f37e7db41764c",
+  "max_tokens": 1024,
+  "judge_max_tokens": 32,
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "limit": null,
+  "runner_sha256": "ceeb05a0c0f6c0aee058cd8642b42417eb1c242e851a886e20aef6bf95c516d0"
+}

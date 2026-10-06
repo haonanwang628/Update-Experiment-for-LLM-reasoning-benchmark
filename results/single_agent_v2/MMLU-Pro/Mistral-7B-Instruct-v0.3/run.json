@@ -1,0 +1,12 @@
+{
+  "model": "mistral-7b-instruct-v0.3",
+  "base_url": "http://localhost:8000/v1",
+  "dataset": "mmlu_pro",
+  "split": "test",
+  "samples": 12032,
+  "limit": null,
+  "max_tokens": 2048,
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "prompt_file": "V3single-agent-MMLUPro copy.txt"
+}

@@ -1,0 +1,22 @@
+{
+ "solve1": {
+  "temperature": 0.0,
+  "questions": 12032,
+  "correct": 7749,
+  "accuracy": 0.644033,
+  "ci95_wilson": [
+   0.635432,
+   0.652541
+  ]
+ },
+ "solve2": {
+  "temperature": 0.7,
+  "questions": 12032,
+  "correct": 7739,
+  "accuracy": 0.643201,
+  "ci95_wilson": [
+   0.634597,
+   0.651714
+  ]
+ }
+}

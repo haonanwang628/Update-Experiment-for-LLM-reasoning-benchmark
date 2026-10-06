@@ -1,0 +1,11 @@
+{
+  "model": "mistral-7b-instruct-v0.3",
+  "base_url": "http://localhost:8000/v1",
+  "dataset": "commonsenseqa",
+  "split": "validation",
+  "samples": 1221,
+  "max_tokens": 2048,
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "prompt_file": "<local>/V2/Mistral-7B-Instruct/CommonsenseQA/single-agent-CommonsenseQA.txt"
+}

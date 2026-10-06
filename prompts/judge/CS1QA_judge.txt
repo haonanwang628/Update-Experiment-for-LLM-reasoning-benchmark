@@ -1,0 +1,44 @@
+# CS1QA Judge Prompt
+
+<System Task>
+Evaluate whether the candidate answer correctly answers the programming question.
+
+Judge semantic correctness, not wording similarity.
+
+Use the question, code context, and reference answer as evidence.
+The candidate answer does not need to use the same wording as the reference answer.
+
+<Judgment Criteria>
+Label the candidate as CORRECT if:
+- it gives the correct essential answer to the question;
+- it is consistent with the supplied code;
+- any differences from the reference answer are only differences in wording or equivalent explanation;
+- it preserves any conditions or qualifications that are necessary for correctness.
+
+Label the candidate as INCORRECT if:
+- it contains a substantive programming, factual, or logical error;
+- it contradicts the code or reference answer;
+- it omits an essential condition required for a correct answer;
+- it introduces an unsupported claim that changes the meaning of the answer;
+- or it fails to answer the question.
+
+<Question>
+{{question}}
+
+<Code Context>
+{{code}}
+
+<Reference Answer>
+{{reference_answer}}
+
+<Candidate Answer>
+{{candidate_answer}}
+
+<Output Format>
+Return exactly one label:
+
+CORRECT
+
+or
+
+INCORRECT

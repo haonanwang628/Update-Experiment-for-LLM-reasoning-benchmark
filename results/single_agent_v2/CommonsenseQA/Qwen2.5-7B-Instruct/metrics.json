@@ -1,0 +1,23 @@
+{
+  "dataset": "commonsenseqa",
+  "split": "validation",
+  "prompt_version": "V2_plain_text",
+  "total_samples": 1221,
+  "scored_samples": 1221,
+  "correct": 1002,
+  "accuracy": 0.8206388206388207,
+  "format_compliant": 1221,
+  "format_compliant_rate": 1.0,
+  "unextractable_no_letter_found": 0,
+  "extraction_method_counts": {
+    "final_answer_line_direct": 1221
+  },
+  "model_config": {
+    "model": "qwen2.5-7b-instruct",
+    "base_url": "http://localhost:8002/v1",
+    "temperature": 0.3,
+    "top_p": 0.9,
+    "max_tokens": 2048
+  },
+  "note": "Accuracy counts a sample correct if the Final answer line's option letter (robustly extracted; text scanning only used when the exact 'Final answer:' line is missing or non-single-letter) matches the gold CommonsenseQA answerKey. format_compliant / format_compliant_rate report how many responses contained all four required field labels (Reasoning/Initial answer/Reflection/Final answer) in order, kept separate from correctness."
+}

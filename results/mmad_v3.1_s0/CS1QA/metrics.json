@@ -1,0 +1,29 @@
+{
+ "Mistral-7B-Instruct-v0.3": {
+  "questions": 1847,
+  "correct": 501,
+  "accuracy": 0.271251,
+  "ci95_question_bootstrap": [
+   0.250677,
+   0.291825
+  ]
+ },
+ "Phi-4-mini-instruct": {
+  "questions": 1847,
+  "correct": 585,
+  "accuracy": 0.31673,
+  "ci95_question_bootstrap": [
+   0.295615,
+   0.338387
+  ]
+ },
+ "Qwen2.5-7B-Instruct": {
+  "questions": 1847,
+  "correct": 643,
+  "accuracy": 0.348132,
+  "ci95_question_bootstrap": [
+   0.327017,
+   0.369789
+  ]
+ }
+}

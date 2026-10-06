@@ -1,0 +1,12 @@
+{
+  "model": "phi-4-mini-instruct",
+  "base_url": "http://localhost:8001/v1",
+  "dataset": "mmlu_pro",
+  "split": "test",
+  "samples": 12032,
+  "limit": null,
+  "max_tokens": 2048,
+  "temperature": 0.3,
+  "top_p": 0.9,
+  "prompt_file": "<local>/V2/Phi-4-mini-instruct/MMLUpro/V3single-agent-MMLUPro copy.txt"
+}
