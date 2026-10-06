@@ -14,7 +14,17 @@ the per-question outputs, the metrics and the run settings.
 - **Models**: Mistral-7B-Instruct-v0.3, Phi-4-mini-instruct, Qwen2.5-7B-Instruct, Gemma-3-27B-IT
 - **Benchmarks**: GSM8K (math word problems), CommonsenseQA (commonsense multiple choice), CS1QA (code question
   answering, free text), MMLU-Pro (professional and academic multiple choice, up to 10 options)
-
+## Models
+- [mistralai/Mistral-7B-Instruct-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3)
+- [microsoft/Phi-4-mini-instruct](https://huggingface.co/microsoft/Phi-4-mini-instruct),
+- [Qwen/Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct),
+- [google/gemma-3-27b-it](https://huggingface.co/google/gemma-3-27b-it)
+## Benchmarks
+- [openai/gsm8k (math word problems)](https://huggingface.co/datasets/openai/gsm8k),
+- [tau/CommonsenseQA (commonsense multiple choice)](https://huggingface.co/datasets/tau/commonsense_qa),
+- [CS1QA-testing datasets (code question answering, free text)](https://aclanthology.org/2022.naacl-main.148/),
+- [datapaf/CodeQuestionAnswering](https://huggingface.co/datasets/datapaf/CodeQuestionAnswering)
+- [TIGER-Lab/MMLU-Pro (professional and academic multiple choice, up to 10 options)](https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro)
 ## Results
 
 Accuracy (%) with 95% Wilson intervals. All sources use the same questions and the same gold answers.
